@@ -47,7 +47,17 @@ cd ~/Desktop/mi-agente
 npm install [paquete]
 ```
 
-**Fix Windows**: ejecuta PowerShell "como administrador" (right-click → Run as Administrator) y vuelve a intentar.
+**Fix Windows**:
+```powershell
+# Primero confirma que estás dentro del folder de tu agente
+cd $HOME\Desktop\mi-agente
+npm install [paquete]
+```
+
+Evita abrir PowerShell "como administrador" para instalar paquetes del agente. Si npm
+sigue pidiendo permisos, cierra la terminal, abre una PowerShell normal nueva y
+reintenta. Si el error aparece al instalar un paquete global (`npm install -g ...`),
+reinstala Node.js con el instalador oficial y deja marcada la opción "Add to PATH".
 
 ---
 
