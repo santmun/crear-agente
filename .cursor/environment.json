@@ -1,0 +1,4 @@
+{
+  "name": "crear-agente",
+  "install": "npm cache add agents openai wrangler typescript @cloudflare/workers-types || true"
+}
