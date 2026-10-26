@@ -115,7 +115,7 @@ Pero **NO es obligatorio**. El agente usa solo el token + fetch directo a la API
 | Twitter/X — followers/following | `kaitoeasyapi/premium-x-follower-scraper-following-data` | $0.0001/user |
 | Instagram — perfiles | `apify/instagram-profile-scraper` | $0.005/profile |
 | Instagram — posts | `apify/instagram-post-scraper` | $0.005/post |
-| LinkedIn — perfiles | `apify/linkedin-profile-scraper` | $0.02/profile |
+| LinkedIn — perfiles | `johnvc/linkedin-profile-api` | $0.02/1000 profiles |
 | Google Maps — negocios | `compass/google-maps-extractor` | $0.001/place |
 | Sitios genéricos | `apify/website-content-crawler` | $1/1000 pages |
 
